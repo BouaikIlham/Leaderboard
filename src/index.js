@@ -1,5 +1,7 @@
-import { getScores } from './api.js'
+import { getScores, createScore } from './api.js'
 const listOfScores = document.querySelector('.scores')
+const user = document.getElementById('name')
+const score = document.getElementById('score')
 
 
 const showScores = (scores) => {
@@ -20,8 +22,14 @@ refrechBtn.addEventListener('click', async () => {
 })
 
 
-
 window.onload = async () => {
     const list = await getScores()
     showScores(list);
 };
+
+const form = document.getElementById('form')
+form.addEventListener('submit', async (e) => {
+    e.preventDefault()
+    await createScore(user.value , score.value)
+    form.reset()
+})
