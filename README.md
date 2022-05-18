@@ -1,7 +1,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# # Leaderboard
+ ## Leaderboard
 
 > Description the project.
 
@@ -52,6 +52,6 @@ cd To-Do-list
 - Twitter: [@IlhamBouaik](https://twitter.com/IlhamBouaik)
 - LinkedIn: [@BouaikIlham](https://www.linkedin.com/in/bouaik-ilham-478478230/)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
