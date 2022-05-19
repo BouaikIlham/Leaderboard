@@ -39,6 +39,7 @@ h2 {
   font-family: monospace;
   cursor: pointer;
   background-color: #fff;
+  padding: 5px;
 }
 
 .refrech-btn:hover {
@@ -70,6 +71,12 @@ h3 {
   border: 2px solid;
   font-size: larger;
   font-family: system-ui;
+  text-decoration: none;
+}
+
+.list {
+  margin-top: 12px;
+  margin-left: 12px;
 }
 
 .submit-btn {
